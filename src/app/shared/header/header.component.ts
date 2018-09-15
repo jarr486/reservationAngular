@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  //Declarar variables
+  btnInicio:string;
+  btnHoteles:string;
+  
+  constructor() {
+  
+     this.btnInicio ="Inicio";
+     this.btnHoteles ="Tipos Hoteles";
+    
+  }
 
   ngOnInit() {
   }
